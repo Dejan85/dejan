@@ -11,7 +11,7 @@ const Nav = ({ changeStyle }) => {
 
   return (
     <React.Fragment>
-      {(history.location.pathname === "/portfolio/" && (
+      {(history.location.pathname === "/portfolio" && (
         <ul className="header__ul">
           <li className="header__li" style={changeStyle}>
             <Link
