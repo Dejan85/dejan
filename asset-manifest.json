@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.64155ab5.chunk.css",
-    "main.js": "/static/js/main.e59fce30.chunk.js",
-    "main.js.map": "/static/js/main.e59fce30.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.170f8412.js",
-    "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
-    "static/js/2.15ec75ee.chunk.js": "/static/js/2.15ec75ee.chunk.js",
-    "static/js/2.15ec75ee.chunk.js.map": "/static/js/2.15ec75ee.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2bcc537ada76c419f6ef045f9773a2f6.js": "/precache-manifest.2bcc537ada76c419f6ef045f9773a2f6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.64155ab5.chunk.css.map": "/static/css/main.64155ab5.chunk.css.map",
-    "static/js/2.15ec75ee.chunk.js.LICENSE": "/static/js/2.15ec75ee.chunk.js.LICENSE",
-    "static/media/luckgame12.jpg": "/static/media/luckgame12.edf45df5.jpg",
-    "static/media/App.scss": "/static/media/porfolio1.d67c9fba.jpg"
+    "main.css": "/dejan/static/css/main.25605931.chunk.css",
+    "main.js": "/dejan/static/js/main.98c29aa6.chunk.js",
+    "main.js.map": "/dejan/static/js/main.98c29aa6.chunk.js.map",
+    "runtime-main.js": "/dejan/static/js/runtime-main.b42d494c.js",
+    "runtime-main.js.map": "/dejan/static/js/runtime-main.b42d494c.js.map",
+    "static/js/2.15ec75ee.chunk.js": "/dejan/static/js/2.15ec75ee.chunk.js",
+    "static/js/2.15ec75ee.chunk.js.map": "/dejan/static/js/2.15ec75ee.chunk.js.map",
+    "index.html": "/dejan/index.html",
+    "precache-manifest.4f12fc66d0044cf8e56a865ec1beda7e.js": "/dejan/precache-manifest.4f12fc66d0044cf8e56a865ec1beda7e.js",
+    "service-worker.js": "/dejan/service-worker.js",
+    "static/css/main.25605931.chunk.css.map": "/dejan/static/css/main.25605931.chunk.css.map",
+    "static/js/2.15ec75ee.chunk.js.LICENSE": "/dejan/static/js/2.15ec75ee.chunk.js.LICENSE",
+    "static/media/luckgame12.jpg": "/dejan/static/media/luckgame12.edf45df5.jpg",
+    "static/media/App.scss": "/dejan/static/media/porfolio1.d67c9fba.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.170f8412.js",
+    "static/js/runtime-main.b42d494c.js",
     "static/js/2.15ec75ee.chunk.js",
-    "static/css/main.64155ab5.chunk.css",
-    "static/js/main.e59fce30.chunk.js"
+    "static/css/main.25605931.chunk.css",
+    "static/js/main.98c29aa6.chunk.js"
   ]
 }
