@@ -1,0 +1,18 @@
+.header {
+	&__logo {
+		font-size: 3rem;
+		font-family: $font-1;
+		font-weight: 800;
+		// color: $color-primary;
+	}
+
+	&__li {
+		font-size: 1.7rem;
+		font-family: $font-1;
+		font-weight: 400;
+	}
+
+	&__link {
+		color: black;
+	}
+}

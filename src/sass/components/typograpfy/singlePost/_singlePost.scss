@@ -1,0 +1,99 @@
+.singlePost {
+	font-family: $font-1;
+	color: white;
+
+	&__h1 {
+		font-size: 4.7rem;
+	}
+
+	&__h2 {
+		font-family: $font-1;
+		font-size: 3.5rem;
+		font-weight: 500;
+		color: black;
+	}
+
+	&__h4 {
+		font-family: $font-1;
+		font-size: 2.5rem;
+		font-weight: 500;
+		color: black;
+	}
+
+	&__h5 {
+		font-family: $font-1;
+		font-size: 2rem;
+		font-weight: 500;
+		color: black;
+		// color: lighten(black, 7%);
+		font-style: italic;
+	}
+
+	&__p {
+		@include p;
+		line-height: 2.7rem;
+		letter-spacing: 0.5px;
+		color: darken($color-primary6, 100%);
+		// font-weight: 300;
+	}
+
+	&__h3 {
+		color: black;
+		font-size: 1.7rem;
+		font-weight: 600;
+	}
+
+	&__ul {
+		color: $color-primary3;
+		font-size: 1.5rem;
+	}
+
+	&__link {
+		color: rgba(0, 0, 0, .9);
+		font-size: 1.8rem;
+		font-weight: 400;
+		line-height: 1.5;
+		text-decoration: none;
+		transition: all 0.5s;
+
+		&:hover {
+			color: $color-primary;
+		}
+	}
+
+	&__date {
+		color: lighten($color-primary3, 20%);
+		font-size: 1.3rem;
+		font-weight: 400;
+	}
+
+	&__signature {
+		color: lighten($color-primary3, 20%);
+		font-size: 1.3rem;
+		font-weight: 400;
+	}
+
+	&__git {
+		&--icon {
+			font-size: 3.5rem;
+			// color: rgba(0, 0, 0, .9);
+		}
+		&--link {
+			display: flex;
+			justify-content: baseline;
+			color: rgba(0, 0, 0, .9);
+			font-size: 1.8rem;
+			text-decoration: none;
+			transition: all 0.3s;
+			color: lighten($color-primary3, 10%);
+
+			p {
+				font-size: 1.7rem;
+			}
+
+			&:hover {
+				color: $color-primary !important;
+			}
+		}
+	}
+}

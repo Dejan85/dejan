@@ -1,0 +1,36 @@
+.about {
+	@include container;
+	display: flex;
+	height: 80rem;
+	// outline: 1px solid red;
+	margin-top: 10rem;
+
+	&__image {
+		flex: 3;
+		// width: 120rem;
+		height: 66rem;
+		// background-image: url(../../../images/6.jpg);
+		background-size: cover !important;
+		// border: 5px solid $color-primary2;
+		-webkit-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	}
+
+	&__content {
+		flex: 4;
+		padding: 1rem 5rem 0;
+	}
+
+	&__h2 {
+		@include h2;
+	}
+
+	&__h6 {
+		@include h6;
+	}
+
+	&__p {
+		@include p;
+	}
+}

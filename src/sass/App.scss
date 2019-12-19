@@ -1,0 +1,41 @@
+// VARIABLES
+@import "./components/variables/variables";
+
+// MIXINS
+@import "./components/mixins/respond";
+@import "./components/mixins/container";
+@import "./components/mixins/heading";
+@import "./components/mixins/hookBar";
+
+// BASE
+@import "./components/base/base";
+@import "./components/base/utils";
+
+// LAYOUT
+@import "./components/layout/header/header";
+@import "./components/layout/home/home";
+@import "./components/layout/about/about";
+@import "./components/layout/skills/skills";
+@import "./components/layout/links/links";
+@import "./components/layout/projects/projects";
+@import "./components/layout/projects/projectsPage";
+@import "./components/layout/blog/blog";
+@import "./components/layout/contact/contact";
+@import "./components/layout/footer/footer";
+@import "./components/layout/singlePost/singlePost";
+
+// TYPOGRAPFY
+@import "./components/typograpfy/header/header";
+@import "./components/typograpfy/home/home";
+@import "./components/typograpfy/about/about";
+@import "./components/typograpfy/skills/skills";
+@import "./components/typograpfy/links/links";
+@import "./components/typograpfy/projects/projects";
+@import "./components/typograpfy/projects/projectsPage";
+@import "./components/typograpfy/blog/blog";
+@import "./components/typograpfy/contact/contact";
+@import "./components/typograpfy/footer/footer";
+@import "./components/typograpfy/singlePost/singlePost";
+
+// DEMO
+@import "./components/demo/colorGame/colorGame";

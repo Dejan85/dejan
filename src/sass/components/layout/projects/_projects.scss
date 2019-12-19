@@ -1,0 +1,174 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10rem 0 10rem 0;
+
+	&__h2 {
+		@include h2;
+	}
+
+	&__h6 {
+		@include h6;
+	}
+
+	&__p {
+		@include p;
+	}
+
+	&__grid {
+		@include container;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		height: 92rem;
+		// outline: 1px solid red;
+		margin: 5rem 0 0 0;
+
+		&--row {
+			display: flex;
+			justify-content: space-between;
+			height: 65%;
+		}
+
+		&--row2 {
+			display: flex;
+			height: 32%;
+			justify-content: space-between;
+		}
+
+		&--columns {
+			position: relative;
+			width: 68%;
+
+			&--child {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				// background-image: url(../../../images/projects/proEnglish1.jpg);
+				background-size: cover;
+				background-position-x: 50%;
+				background-repeat: no-repeat;
+
+				-webkit-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				-moz-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				box-shadow: -1px 0px 15px 0px rgba(211, 211, 211, 0.75);
+
+				&--content {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					width: 100%;
+					height: 100%;
+					opacity: 0;
+					transition: all 0.5s linear;
+					text-decoration: none;
+
+					&:hover {
+						opacity: 1;
+						background-color: rgba($color-primary2, .8);
+					}
+				}
+			}
+		}
+
+		&--columns2 {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			// background: pink;
+			width: 29%;
+
+			&--child1 {
+				height: 47.5%;
+
+				// background-image: url(../../../images/projects/colorGame1.jpg);
+				background-size: cover;
+				background-position-x: 50%;
+				background-repeat: no-repeat;
+
+				-webkit-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				-moz-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				box-shadow: -1px 0px 15px 0px rgba(211, 211, 211, 0.75);
+			}
+
+			&--child2 {
+				height: 47.5%;
+
+				// background-image: url(../../../images/projects/pigGame1.jpg);
+				background-size: cover;
+				background-position-x: 50%;
+				background-repeat: no-repeat;
+
+				-webkit-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				-moz-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				box-shadow: -1px 0px 15px 0px rgba(211, 211, 211, 0.75);
+			}
+		}
+
+		&--columns3 {
+			width: 30%;
+
+			-webkit-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+			-moz-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+			box-shadow: -1px 0px 15px 0px rgba(211, 211, 211, 0.75);
+
+			&--child {
+				height: 100%;
+
+				// background-image: url(../../../images/projects/luckGame1.jpg);
+				background-size: cover;
+				background-position-x: 50%;
+				background-repeat: no-repeat;
+
+				-webkit-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				-moz-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				box-shadow: -1px 0px 15px 0px rgba(211, 211, 211, 0.75);
+			}
+		}
+
+		&--columns4 {
+			width: 67%;
+
+			-webkit-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+			-moz-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+			box-shadow: -1px 0px 15px 0px rgba(211, 211, 211, 0.75);
+
+			&--child {
+				height: 100%;
+
+				// background-image: url(../../../images/projects/porfolio1.jpg);
+				background-size: cover;
+				background-position-x: 50%;
+				background-repeat: no-repeat;
+
+				-webkit-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				-moz-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+				box-shadow: -1px 0px 15px 0px rgba(211, 211, 211, 0.75);
+			}
+		}
+	}
+
+	&__btn {
+		border: 1px solid $color-primary;
+		max-width: 20rem;
+		width: 100%;
+		margin-top: 7rem;
+		cursor: pointer;
+		transition: all 0.7s;
+		border-radius: 1.5rem;
+
+		&:hover {
+			color: darken($color-primary, 30%);
+			border-color: darken($color-primary, 30%);
+		}
+	}
+
+	&__link {
+		display: block;
+		padding: 1.2rem 1.3rem;
+	}
+}

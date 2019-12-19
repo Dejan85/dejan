@@ -1,0 +1,78 @@
+.projectPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@include container;
+
+	&__h2 {
+		@include h2;
+	}
+
+	&__h6 {
+		padding: 6rem 0 0 0;
+		@include h6;
+	}
+
+	&__nav {
+		padding: 5rem 0 0 0;
+	}
+
+	&__ul {
+		display: flex;
+	}
+
+	&__li {
+		list-style-type: none;
+		padding: 1rem 2rem;
+		margin: 0.5rem;
+		border: 1px solid darken($color-primary4, 4%);
+		border-radius: 2rem;
+		cursor: pointer;
+		transition: all 0.5s;
+
+		&:hover {
+			background: $color-primary;
+			color: white;
+		}
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 100%;
+		padding: 2rem 0 20rem 0;
+	}
+
+	&__card {
+		width: 31%;
+		margin: 5rem 0rem 0 0;
+
+		-webkit-box-shadow: -1px 0px 15px 0px rgba($color-primary3, 0.30);
+		-moz-box-shadow: -1px 0px 15px 0px rgba($color-primary3, 0.30);
+		box-shadow: -1px 0px 15px 0px rgba($color-primary3, 0.30);
+
+		&--img {
+			background-image: url(../../../images/projects/porfolio1.jpg);
+			background-size: cover;
+			background-position: center;
+			height: 25rem;
+		}
+
+		&--text {
+			padding: 1rem 2rem;
+			// outline: 1px solid red;
+		}
+
+		&--link {
+			display: block;
+			padding: 2rem 0;
+		}
+
+		&--p {
+			display: block;
+			padding: 0 0 2rem 0;
+		}
+	}
+}

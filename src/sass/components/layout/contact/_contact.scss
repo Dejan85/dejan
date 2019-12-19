@@ -1,0 +1,74 @@
+.contact {
+	// @include container;
+
+	background: $color-primary4;
+
+	&__container {
+		padding: 10rem 0 0 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__h2 {
+		@include h2;
+		z-index: 100;
+	}
+
+	&__h6 {
+		@include h6;
+		z-index: 100;
+	}
+
+	&__p {
+		@include p;
+		z-index: 100;
+	}
+
+	&__content {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+
+		@include container;
+	}
+
+	&__img {
+		// background-image: url(../../../images/2.2.jpg);
+		// background-image: url(../../../images/2.jpg);
+		background-position-x: 50% !important;
+		background-size: cover !important;
+		height: 70rem;
+		width: 45%;
+		margin: -10rem 0 0 0;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+		width: 52%;
+		padding: 12rem 2rem 0 2rem;
+	}
+
+	&__input {
+		margin: 2rem 0 0 0;
+		padding: 1rem 1rem;
+		border-radius: 0.5rem;
+		border-style: solid;
+		border-color: darken($color-primary4, 10%);
+	}
+
+	&__btn {
+		background: $color-primary2;
+		padding: 1.7rem;
+		width: 20rem;
+		transition: all .5s;
+		cursor: pointer;
+		margin: 2rem 0;
+		border: none;
+
+		&:hover {
+			background: darken($color-primary2, 10%);
+		}
+	}
+}

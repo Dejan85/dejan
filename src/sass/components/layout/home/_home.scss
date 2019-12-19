@@ -1,0 +1,64 @@
+.home {
+	display: flex;
+	height: 85rem;
+	// outline: 1px solid red;
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		background: $color-primary;
+		width: 36%;
+		height: 70%;
+		right: 0;
+	}
+
+	&__content {
+		@include container;
+		// outline: 1px solid red;
+		position: relative;
+	}
+
+	&__text {
+		position: absolute;
+		// outline: 1px solid red;
+		// width: 60rem;
+		top: 40rem;
+		z-index: 40;
+	}
+
+	&__picture {
+		position: absolute;
+		max-width: 90rem;
+		width: 100%;
+		max-height: 65rem;
+		height: 100%;
+		z-index: 30;
+		top: 12rem;
+		right: 0;
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+
+		-webkit-box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	}
+
+	&__btn {
+		border: 1px solid $color-primary;
+		width: 10rem;
+		margin-top: 5rem;
+		cursor: pointer;
+		transition: all 0.7s;
+
+		&:hover {
+			color: darken($color-primary, 30%);
+			border-color: darken($color-primary, 30%);
+		}
+	}
+
+	&__link {
+		display: block;
+		padding: 5px;
+	}
+}

@@ -1,0 +1,41 @@
+@mixin skillBar {
+	.hook__bar {
+		display: flex;
+		flex-direction: column;
+		// max-width: 55rem;
+		// width: 100%;
+		width: 48%;
+		padding: 1rem 0;
+
+		&--text {
+			display: flex;
+			position: relative;
+			padding: 0 0 1rem 0;
+		}
+
+		&--outer {
+			position: relative;
+			width: 100%;
+			height: 2rem;
+			background: darken($color-primary4, 5%);
+		}
+
+		&--inner {
+			position: absolute;
+			background: $color-primary2;
+			// width: 20rem;
+		}
+
+		&--h3 {
+			font-family: $font-1;
+			font-size: 2rem;
+			font-weight: 500;
+		}
+
+		&--percent {
+			font-family: $font-1;
+			font-size: 2rem;
+			font-weight: 500;
+		}
+	}
+}

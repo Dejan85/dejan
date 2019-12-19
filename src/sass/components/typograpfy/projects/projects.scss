@@ -1,0 +1,38 @@
+.projects {
+	&__grid {
+		&--h5 {
+			font-family: $font-1;
+			font-size: 2.5rem;
+			font-weight: 400;
+			color: white;
+			cursor: pointer;
+		}
+
+		&--p {
+			font-family: $font-1;
+			font-size: 1.7rem;
+			font-weight: 400;
+			color: white;
+			cursor: pointer;
+		}
+	}
+
+	&__btn {
+		font-family: $font-1;
+		font-size: 1.5rem;
+		color: $color-primary;
+		font-weight: 400;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	&__link {
+		color: $color-primary;
+		text-decoration: none;
+		transition: all .5s;
+
+		&:hover {
+			color: darken($color-primary, 30%) !important;
+		}
+	}
+}

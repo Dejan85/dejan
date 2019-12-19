@@ -1,0 +1,38 @@
+.header {
+	position: absolute;
+	z-index: 120;
+	width: 100%;
+	transition: all 0.5s;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@include container;
+	}
+
+	&__ul {
+		display: flex;
+	}
+
+	&__li {
+		list-style-type: none;
+		cursor: pointer;
+		padding: 3rem 2rem 3rem 2rem;
+		transition: all 0.5s;
+
+		&:last-child {
+			padding: 3rem 0rem 3rem 2rem;
+		}
+	}
+
+	&__link {
+		padding-bottom: 7px;
+		transition: 0.2s linear;
+		user-select: none;
+
+		&:hover {
+			color: $color-primary2;
+		}
+	}
+}

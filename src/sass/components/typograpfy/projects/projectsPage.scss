@@ -1,0 +1,36 @@
+.projectPage {
+	font-family: $font-1;
+
+	&__li {
+		font-size: 1.5rem;
+		color: $color-primary3;
+		font-weight: 300;
+	}
+
+	&__card {
+		&--link {
+			font-size: 2.3rem;
+			color: $color-primary6;
+			text-decoration: none;
+			transition: all 0.5s;
+			font-weight: 600;
+
+			&:hover {
+				color: $color-primary2;
+			}
+		}
+
+		&--p {
+			color: $color-primary7;
+			font-size: 1.7rem;
+			font-weight: 400;
+			text-decoration: none;
+			transition: all 0.5s;
+			line-height: 1.5;
+
+			&:hover {
+				color: $color-primary2;
+			}
+		}
+	}
+}

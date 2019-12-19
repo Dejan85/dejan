@@ -1,0 +1,20 @@
+@mixin h2 {
+	font-family: $font-1;
+	font-size: 3.3rem;
+	padding: 2rem 0;
+}
+
+@mixin h6 {
+	font-family: $font-1;
+	font-size: 1.7rem;
+	font-weight: 400;
+	color: $color-primary2;
+}
+
+@mixin p {
+	font-family: $font-1;
+	font-size: 1.7rem;
+	// color: $color-primary3;
+	color: darken($color-primary6, 80%);
+	padding: 1.5rem 0rem;
+}

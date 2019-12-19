@@ -1,0 +1,19 @@
+.home {
+	&__text {
+		font-size: 5.6rem;
+		font-family: $font-1;
+		font-weight: 900;
+	}
+
+	&__span {
+		color: $color-primary2;
+	}
+
+	&__btn {
+		font-size: 1.7rem;
+		color: $color-primary;
+		font-weight: 400;
+		text-transform: uppercase;
+		text-align: center;
+	}
+}

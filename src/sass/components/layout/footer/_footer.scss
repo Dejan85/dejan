@@ -1,0 +1,66 @@
+.footer {
+	background: $color-primary2;
+	width: 100%;
+	height: 55rem;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		// outline: 1px solid white;
+		height: 100%;
+
+		@include container;
+		padding-bottom: 2rem;
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		height: 100%;
+	}
+
+	&__boxContainer {
+		display: flex;
+		// outline: 1px solid green;
+		width: 45%;
+		justify-content: flex-end;
+	}
+
+	&__box {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		// outline: 1px solid orange;
+	}
+
+	&__box2 {
+		display: flex;
+		flex-direction: column;
+		// flex: 1;
+		// outline: 1px solid orange;
+	}
+
+	&__h5 {
+		padding: 13rem 0 5rem 0;
+	}
+
+	&__ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__li {
+		padding: 0.5rem;
+		list-style-type: none;
+	}
+
+	&__icon {
+		padding: 0 1.4rem 0 0;
+	}
+
+	&__link {
+		cursor: pointer;
+		padding: 0 0rem 0 1.4rem;
+	}
+}

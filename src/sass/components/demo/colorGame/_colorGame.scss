@@ -1,0 +1,142 @@
+// VARIABLES
+$color-1: #4581b3;
+$color-2: #ffffff;
+$color-3: #232323;
+
+$font-1: 'Roboto', sans-serif;
+$font-2: 'Poppins', sans-serif;
+
+// LAYOUT
+
+.colorgame {
+	// margin: 0 auto;
+	// max-width: 140rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+
+	&__active {
+		background: $color-1;
+		color: white;
+	}
+
+	&__content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: $color-3;
+		width: 100%;
+		height: 100vh;
+
+		&__boxes {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			max-width: 80rem;
+			width: 100%;
+			height: 47rem;
+		}
+
+		&__box {
+			max-width: 22rem;
+			width: 100%;
+			height: 22rem;
+			margin: 1rem;
+			background: cornflowerblue;
+			border-radius: 5rem;
+			cursor: pointer;
+			transition: all .7s;
+		}
+	}
+
+	&__header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: $color-1;
+		height: 30rem;
+		width: 100%;
+	}
+
+	&__menu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 4rem;
+		max-width: 80rem;
+		width: 100%;
+
+		&__h2 {
+			display: block;
+			padding: 1rem 0 1rem 0;
+			transition: all 0.5s;
+			cursor: pointer;
+			user-select: none;
+
+			&:hover {
+				color: darken($color-1, 80%);
+			}
+		}
+
+		&__ul {
+			display: flex;
+		}
+
+		&__li {
+			list-style-type: none;
+			padding: 1rem 1rem;
+			cursor: pointer;
+			transition: all 0.5s;
+			user-select: none;
+
+			&:hover {
+				background: darken($color-1, 8%);
+				color: white;
+			}
+		}
+	}
+
+	// TYPOGRAPFY
+	&__header {
+		font-family: $font-1;
+		color: white;
+		font-weight: 500;
+		text-transform: uppercase;
+
+		&__h1 {
+			font-size: 3rem;
+		}
+
+		&__color {
+			font-size: 6rem;
+			padding: 1rem 0;
+		}
+
+		&__p {
+			font-size: 3rem;
+		}
+	}
+
+	&__menu {
+		font-family: $font-1;
+		color: $color-1;
+		font-weight: 600;
+
+		&__h2 {
+			font-size: 1.7rem;
+		}
+
+		&__ul {
+			font-size: 1.7rem;
+		}
+
+		&__message {
+			font-size: 1.7rem;
+		}
+	}
+}
