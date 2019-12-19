@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/porfolio/static/css/main.d92a3148.chunk.css",
-    "main.js": "/porfolio/static/js/main.258e21a9.chunk.js",
-    "main.js.map": "/porfolio/static/js/main.258e21a9.chunk.js.map",
-    "runtime-main.js": "/porfolio/static/js/runtime-main.78461a13.js",
-    "runtime-main.js.map": "/porfolio/static/js/runtime-main.78461a13.js.map",
-    "static/js/2.15ec75ee.chunk.js": "/porfolio/static/js/2.15ec75ee.chunk.js",
-    "static/js/2.15ec75ee.chunk.js.map": "/porfolio/static/js/2.15ec75ee.chunk.js.map",
-    "index.html": "/porfolio/index.html",
-    "precache-manifest.7fc5af514f13582cf147d0b65ca435e5.js": "/porfolio/precache-manifest.7fc5af514f13582cf147d0b65ca435e5.js",
-    "service-worker.js": "/porfolio/service-worker.js",
-    "static/css/main.d92a3148.chunk.css.map": "/porfolio/static/css/main.d92a3148.chunk.css.map",
-    "static/js/2.15ec75ee.chunk.js.LICENSE": "/porfolio/static/js/2.15ec75ee.chunk.js.LICENSE",
-    "static/media/luckgame12.jpg": "/porfolio/static/media/luckgame12.edf45df5.jpg",
-    "static/media/App.scss": "/porfolio/static/media/porfolio1.d67c9fba.jpg"
+    "main.css": "/portfolio/static/css/main.3ef87623.chunk.css",
+    "main.js": "/portfolio/static/js/main.27bcc9ca.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.27bcc9ca.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
+    "static/js/2.15ec75ee.chunk.js": "/portfolio/static/js/2.15ec75ee.chunk.js",
+    "static/js/2.15ec75ee.chunk.js.map": "/portfolio/static/js/2.15ec75ee.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.a2edf156b7bc508cf7e23f2c24db4379.js": "/portfolio/precache-manifest.a2edf156b7bc508cf7e23f2c24db4379.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.3ef87623.chunk.css.map": "/portfolio/static/css/main.3ef87623.chunk.css.map",
+    "static/js/2.15ec75ee.chunk.js.LICENSE": "/portfolio/static/js/2.15ec75ee.chunk.js.LICENSE",
+    "static/media/luckgame12.jpg": "/portfolio/static/media/luckgame12.edf45df5.jpg",
+    "static/media/App.scss": "/portfolio/static/media/porfolio1.d67c9fba.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.78461a13.js",
+    "static/js/runtime-main.860ade9b.js",
     "static/js/2.15ec75ee.chunk.js",
-    "static/css/main.d92a3148.chunk.css",
-    "static/js/main.258e21a9.chunk.js"
+    "static/css/main.3ef87623.chunk.css",
+    "static/js/main.27bcc9ca.chunk.js"
   ]
 }
