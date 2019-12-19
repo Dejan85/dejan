@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dejan/static/css/main.25605931.chunk.css",
-    "main.js": "/dejan/static/js/main.98c29aa6.chunk.js",
-    "main.js.map": "/dejan/static/js/main.98c29aa6.chunk.js.map",
+    "main.js": "/dejan/static/js/main.b9bbe4f8.chunk.js",
+    "main.js.map": "/dejan/static/js/main.b9bbe4f8.chunk.js.map",
     "runtime-main.js": "/dejan/static/js/runtime-main.b42d494c.js",
     "runtime-main.js.map": "/dejan/static/js/runtime-main.b42d494c.js.map",
     "static/js/2.15ec75ee.chunk.js": "/dejan/static/js/2.15ec75ee.chunk.js",
     "static/js/2.15ec75ee.chunk.js.map": "/dejan/static/js/2.15ec75ee.chunk.js.map",
     "index.html": "/dejan/index.html",
-    "precache-manifest.4f12fc66d0044cf8e56a865ec1beda7e.js": "/dejan/precache-manifest.4f12fc66d0044cf8e56a865ec1beda7e.js",
+    "precache-manifest.e2c5303438d542e86d526a3dee317274.js": "/dejan/precache-manifest.e2c5303438d542e86d526a3dee317274.js",
     "service-worker.js": "/dejan/service-worker.js",
     "static/css/main.25605931.chunk.css.map": "/dejan/static/css/main.25605931.chunk.css.map",
     "static/js/2.15ec75ee.chunk.js.LICENSE": "/dejan/static/js/2.15ec75ee.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.b42d494c.js",
     "static/js/2.15ec75ee.chunk.js",
     "static/css/main.25605931.chunk.css",
-    "static/js/main.98c29aa6.chunk.js"
+    "static/js/main.b9bbe4f8.chunk.js"
   ]
 }
