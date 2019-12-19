@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3ef87623.chunk.css",
-    "main.js": "/portfolio/static/js/main.d6d99c9e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d6d99c9e.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
-    "static/js/2.15ec75ee.chunk.js": "/portfolio/static/js/2.15ec75ee.chunk.js",
-    "static/js/2.15ec75ee.chunk.js.map": "/portfolio/static/js/2.15ec75ee.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.3ab5059d222f2b63144385d3c9d0370e.js": "/portfolio/precache-manifest.3ab5059d222f2b63144385d3c9d0370e.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.3ef87623.chunk.css.map": "/portfolio/static/css/main.3ef87623.chunk.css.map",
-    "static/js/2.15ec75ee.chunk.js.LICENSE": "/portfolio/static/js/2.15ec75ee.chunk.js.LICENSE",
-    "static/media/luckgame12.jpg": "/portfolio/static/media/luckgame12.edf45df5.jpg",
-    "static/media/App.scss": "/portfolio/static/media/porfolio1.d67c9fba.jpg"
+    "main.css": "/static/css/main.64155ab5.chunk.css",
+    "main.js": "/static/js/main.e59fce30.chunk.js",
+    "main.js.map": "/static/js/main.e59fce30.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.170f8412.js",
+    "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
+    "static/js/2.15ec75ee.chunk.js": "/static/js/2.15ec75ee.chunk.js",
+    "static/js/2.15ec75ee.chunk.js.map": "/static/js/2.15ec75ee.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2bcc537ada76c419f6ef045f9773a2f6.js": "/precache-manifest.2bcc537ada76c419f6ef045f9773a2f6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.64155ab5.chunk.css.map": "/static/css/main.64155ab5.chunk.css.map",
+    "static/js/2.15ec75ee.chunk.js.LICENSE": "/static/js/2.15ec75ee.chunk.js.LICENSE",
+    "static/media/luckgame12.jpg": "/static/media/luckgame12.edf45df5.jpg",
+    "static/media/App.scss": "/static/media/porfolio1.d67c9fba.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.860ade9b.js",
+    "static/js/runtime-main.170f8412.js",
     "static/js/2.15ec75ee.chunk.js",
-    "static/css/main.3ef87623.chunk.css",
-    "static/js/main.d6d99c9e.chunk.js"
+    "static/css/main.64155ab5.chunk.css",
+    "static/js/main.e59fce30.chunk.js"
   ]
 }
