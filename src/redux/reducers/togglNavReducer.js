@@ -1,6 +1,6 @@
 import { SHOW__NAV, DISABLED__NAV } from "../type/type";
 
-const initialState = { showNav: false };
+const initialState = { showNav: true };
 
 export default function(state = initialState, action) {
   switch (action.type) {

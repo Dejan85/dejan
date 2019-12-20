@@ -50,8 +50,8 @@ const SinglePost = ({ projects, disableNav }) => {
     setTimeout(() => {
       setWaitForCode(true);
     }, 100);
-    abortController.abort();
     disableNav();
+    abortController.abort();
   }, []);
 
   useEffect(() => {
