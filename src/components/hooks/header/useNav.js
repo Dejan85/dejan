@@ -1,24 +1,28 @@
 import { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const useNavHook = () => {
   const [style, setStyle] = useState({});
-  const location = useLocation();
 
-  // OVO NIJE GOTOVO
   useEffect(() => {
     setStyle(() => {
-      if (location.pathname === "/demo/colorgame") {
+      if (!showNav && window.pageYOffset === 0) {
         return {
-          header: { display: "none" }
+          header: {
+            opacity: 0
+          }
         };
       }
     });
   }, []);
 
+  const showNav = useSelector(state => {
+    return state.togglNav.showNav;
+  });
+
   window.onscroll = () => {
     setStyle(() => {
-      if (location.pathname === "/portfolio" && window.pageYOffset !== 0) {
+      if (showNav && window.pageYOffset !== 0) {
         return {
           header: {
             position: "fixed",
@@ -30,19 +34,13 @@ const useNavHook = () => {
             padding: "2rem 1.5rem 2rem 1.5rem"
           }
         };
-      } else if (
-        location.pathname !== "/portfolio" &&
-        window.pageYOffset === 0
-      ) {
+      } else if (!showNav && window.pageYOffset === 0) {
         return {
           header: {
             opacity: 0
           }
         };
-      } else if (
-        location.pathname !== "/portfolio" &&
-        window.pageYOffset !== 0
-      ) {
+      } else if (!showNav && window.pageYOffset !== 0) {
         return {
           header: {
             position: "fixed",

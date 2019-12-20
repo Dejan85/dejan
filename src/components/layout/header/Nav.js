@@ -1,17 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import PropTypes from "prop-types";
 import { useHistory } from "react-router-dom";
+import { connect } from "react-redux";
 
-const Nav = ({ changeStyle }) => {
+const Nav = ({ changeStyle, showNav }) => {
   const { duration } = useState(500);
   let history = useHistory();
 
-  console.log(history.location.pathname);
-
   return (
     <React.Fragment>
-      {(history.location.pathname === "/portfolio" && (
+      {(showNav && (
         <ul className="header__ul">
           <li className="header__li" style={changeStyle}>
             <Link
@@ -106,7 +105,13 @@ const Nav = ({ changeStyle }) => {
 };
 
 Nav.propTypes = {
-  changeStyle: PropTypes.object
+  changeStyle: PropTypes.object,
+  togglNav: PropTypes.object
 };
 
-export default Nav;
+const mapStateToProps = state => {
+  const { togglNav } = state;
+  return togglNav;
+};
+
+export default connect(mapStateToProps, null)(Nav);
