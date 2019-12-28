@@ -13,9 +13,9 @@ const Skills = () => {
     { name: "Webpack", percent: 20 },
     { name: "Css/Sass", percent: 80 },
     { name: "Node Js", percent: 20 },
-    { name: "Javascript", percent: 70 },
+    { name: "Javascript", percent: 80 },
     { name: "Mongo Db", percent: 20 },
-    { name: "React/Redux", percent: 70 },
+    { name: "React/Redux", percent: 80 },
     { name: "Ejs", percent: 20 }
   ]);
 
