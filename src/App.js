@@ -40,6 +40,7 @@ function App() {
               <Projects />
               <Blog />
               {/* <Contact /> */}
+              <Footer />
             </Route>
             <Route exact path="/projects/:name">
               <SinglePost />
@@ -54,7 +55,6 @@ function App() {
               <ContentEdit />
             </Route>
           </Switch>
-          <Footer />
         </Router>
       </Provider>
     </div>

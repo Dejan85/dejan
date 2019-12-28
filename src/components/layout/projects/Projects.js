@@ -90,7 +90,7 @@ const Projects = ({ showNav }) => {
               }}
             >
               <Link
-                to={`/projects/luckgame`}
+                to={`/projects/${projects && projects[3].id}`}
                 className="projects__grid--columns--child--content"
               >
                 <h5 className="projects__grid--h5">
@@ -100,14 +100,24 @@ const Projects = ({ showNav }) => {
               </Link>
             </div>
           </div>
-          {/* <div className="projects__grid--columns4">
-						<div className="projects__grid--columns4--child">
-							<Link to="/projects/portfolio" className="projects__grid--columns--child--content">
-								<h5 className="projects__grid--h5">Portfolio</h5>
-								<p className="projects__grid--p">Read more</p>
-							</Link>
-						</div>
-					</div> */}
+          <div className="projects__grid--columns4">
+            <div
+              className="projects__grid--columns4--child"
+              style={{
+                backgroundImage: `url(${projects && projects[4].image})`
+              }}
+            >
+              <Link
+                to={`/projects/${projects && projects[4].id}`}
+                className="projects__grid--columns--child--content"
+              >
+                <h5 className="projects__grid--h5">
+                  {projects && projects[4].name}
+                </h5>
+                <p className="projects__grid--p">Read more</p>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
       <p className="projects__btn">
